@@ -13,7 +13,7 @@ const userSchema = new Schema(
     },
   },
   {
-    timeStamp: true, // will add the time stamp for the Game Played!
+    timestamps: true, // will add the time stamp for the Game Played!
   }
 );
 
