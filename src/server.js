@@ -2,9 +2,6 @@
 import express from "express";
 import cors from "cors";
 import listEndpoints from "express-list-endpoints";
-import mongoose from "mongoose";
-import {join, dirname} from "path";
-import {fileURLToPath} from "url";
 
 // Imports of important files from the FileSystem;
 import userRouter from "./users/index.js";
